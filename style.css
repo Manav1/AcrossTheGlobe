@@ -1,0 +1,67 @@
+
+  
+body{
+  margin: 0;
+}
+  @media screen and (max-width: 770px) {
+    .navbar {
+      display: none;
+    }
+    .cover{    
+      content:url("media/cover-mob.JPG"); 
+    }
+    .card{
+      width: 93%;
+    }
+    .right-container{
+      display: none;
+    }
+    .views{
+      display: none;
+    }
+    .lgnav{
+      display: none;
+    }
+    .navhr{
+      display: none;
+    }
+    .card{
+      border-top:1px solid #D3D3D3;
+      border-bottom: 1px solid #D3D3D3;
+    }
+  }
+  @media screen and (min-width: 771px) {
+    .card{
+      border: 1px solid #D3D3D3;
+       border-radius: 5px;
+    }
+    .share{
+      display: none;
+    }
+    .smviews{
+      display: none;
+    }
+    .smnav{
+      display: none;
+    }
+  }
+  .logo{
+    margin-top: 7px;
+  }
+
+  .search{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+  .container{
+  }
+
+  .opt{
+    padding: 5px;
+  }
+
+  .opt:active{
+      background-color: #D3D3D3;
+  }
